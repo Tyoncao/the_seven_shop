@@ -1,0 +1,163 @@
+
+:root{
+    --purple-color: #6b26b7;
+    --text-menu-coler: #00000091;
+}
+html{line-height:1.15;-webkit-text-size-adjust:100%}
+header,section,aside,nav, footer, figure,figcaption{display: block;}
+body{margin:0}main{display:block}
+h1{font-size:2em;margin:.67em 0}
+hr{box-sizing:content-box;height:0;overflow:visible}
+pre{font-family:monospace,monospace;font-size:1em}
+a{background-color:transparent}a
+bbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}
+code,kbd,samp{font-family:monospace,monospace;font-size:1em}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-.25em}
+sup{top:-.5em}
+img{border-style:none}
+button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}
+button,input{overflow:visible}
+button,select{text-transform:none}[type=button],[type=reset],[type=submit],
+button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,
+button:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{padding:.35em .75em .625em}
+legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}
+progress{vertical-align:baseline}
+textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+details{display:block}
+summary{display:list-item}
+template{display:none}[hidden]{display:none}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bander-top{
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color:var(--purple-color);
+    
+}
+.header-top{
+    display: flex;
+    justify-content:space-between;
+    font-size: 0.8rem;
+}
+.header-top_item{
+    display: flex;
+    margin: 12px 0 12px 0;
+}
+.header-top_item-phone{
+    color: #ffffff50  ;
+}
+.header-top_item-phone-number{
+    color: #fff;
+    margin-left: 8px;
+}
+.header-top_item-about, 
+.header-top_item-faq, 
+.header-top_item-contact{
+    list-style: none;
+    display: block;
+    margin-right: 32px;
+   
+}
+.header-top_item-about a, 
+.header-top_item-faq a, 
+.header-top_item-contact a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.header-top_item-contact-icon{
+    color: #ffffff60;
+}
+.header-top_item-about a:hover .header-top_item-contact-icon{
+    color: #b30909 ;
+}
+
+/* header main */
+
+.header-main, 
+.header-main_menu,
+.header-main_icon{
+    display: flex;
+    list-style: none;
+    color: var(--text-menu-coler);
+}
+.header-main{
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+.header-main_logo>img{
+    width: 50%; 
+}
+.header-main_menu{
+    width: 800px ;
+    justify-content: space-around;
+}
+
+.header-main_menu-items>a{
+    display: block;
+    text-decoration: none;
+    color: var(--text-menu-coler);
+}
+
+
+.header-main_icon{  
+    justify-content: space-between;
+    width: 50px;
+}
+
+/* Menu leve l */
+.menu-home_level-1{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 100px;
+     
+    justify-content: space-between;
+    display: none;
+}
+.menu-home_level-1-1,
+.menu-home_level-1-2,
+.menu-home_level-1-3{
+    list-style: none;
+    margin: auto;
+}
+.menu-home_level-1-1>img,
+.menu-home_level-1-2>img,
+.menu-home_level-1-3>img{
+    max-width: 378px;
+}
+.menu-home_level-1-1>p,
+.menu-home_level-1-2>p,
+.menu-home_level-1-3>p {
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
+}
+.header-main_menu-home:hover .header-main_menu-home>a{
+    color: var(--purple-color);
+}
+.header-main_menu-home:hover .menu-home_level-1{
+    display: flex;
+    
+}
