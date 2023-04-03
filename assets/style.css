@@ -289,12 +289,24 @@ a, a:hover {
     text-transform: uppercase;
     margin-bottom: 2rem;
 }
+
+.card-image-container {
+    position: relative;
+}
+
+
 .card-image{
     position: absolute;
-    max-width: 285px;
-    max-height: 380px;
-    
+    max-width: 268px;
+    z-index: 0;
+    transition: z-index 0.5s ease;
 }
 .card-image-off{
     position: relative;
+    z-index: 1;
 }
+
+.card-image-container:hover .card-image{
+    z-index: 2;
+}
+
