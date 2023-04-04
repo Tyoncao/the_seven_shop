@@ -1,332 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./assets/responsive.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="header">
-      <div class="header-top">
-        <div class="container d-flex justify-content-between">
-          <div class="hot-line">
-            Hotline: <span class="fw-semibold">+01 023 456 789</span>
-          </div>
-          <div>
-            <ul class="d-flex align-items-center">
-              <li>
-                <a href="">
-                  <i class="fa fa-info-circle" aria-hidden="true"></i>
-                  About brand
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i class="fa fa-question-circle-o" aria-hidden="true"></i>
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="header-main">
-        <div class="container h-100">
-          <div class="d-flex align-items-center justify-content-between h-100">
-            <h1 class="logo">
-              <a href=""><img src="./assets/img/sevenshoplogo.svg" alt="" /></a>
-            </h1>
-            <ul class="main-menu d-flex justify-content-center h-100">
-              <li class="d-flex menu-catalogue align-items-center">
-                Catalogue <i class="fa fa-caret-down" aria-hidden="true"></i>
-                <ul class="menu-catalogue-1 menu-1 container">
-                  <li>
-                    <a href="">
-                      <img src="./assets/img/Menu/catalogue-1.webp" alt="" />
-                      <h4>Catalogue with side filter</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="./assets/img/Menu/catalogue-2.webp" alt="" />
-                      <h4>Catalogue with slide-out filter</h4>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="./assets/img/Menu/catalogue-3.webp" alt="" />
-                      <h4>Product page layout</h4>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="d-flex menu-women align-items-center">
-                Women <i class="fa fa-caret-down" aria-hidden="true"></i>
-                <div class="menu-women-1 menu-1 container">
-                  <div class="row">
-                    <div class="women-fashion col-8">
-                      <h4 class="women-heading-title">women's fashion</h4>
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="d-flex women-category">
-                            <img
-                              src="./assets/img/Menu/s104.webp"
-                              alt=""
-                              class="women-category-img"
-                            />
-                            <div>
-                              <h5 class="women-categor-title">
-                                Women's t-shirts
-                              </h5>
-                              <span class="women-category-products"
-                                >3 Products</span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="d-flex women-category">
-                            <img
-                              src="./assets/img/Menu/s104.webp"
-                              alt=""
-                              class="women-category-img"
-                            />
-                            <div>
-                              <h5 class="women-categor-title">
-                                Women's t-shirts
-                              </h5>
-                              <span class="women-category-products"
-                                >3 Products</span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="d-flex women-category">
-                            <img
-                              src="./assets/img/Menu/s104.webp"
-                              alt=""
-                              class="women-category-img"
-                            />
-                            <div>
-                              <h5 class="women-categor-title">
-                                Women's t-shirts
-                              </h5>
-                              <span class="women-category-products"
-                                >3 Products</span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="d-flex women-category">
-                            <img
-                              src="./assets/img/Menu/s104.webp"
-                              alt=""
-                              class="women-category-img"
-                            />
-                            <div>
-                              <h5 class="women-categor-title">
-                                Women's t-shirts
-                              </h5>
-                              <span class="women-category-products"
-                                >3 Products</span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="col-4">Test</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/responsive.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-top">
+      <div class="container d-flex justify-content-between">
+        <div class="hot-line">
+          Hotline: <span class="fw-semibold">+01 023 456 789</span>
+        </div>
+        <div>
+          <ul class="d-flex align-items-center">
+            <li>
+              <a href="">
+                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                About brand
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container h-100">
+        <div class="d-flex align-items-center justify-content-between h-100">
+          <h1 class="logo">
+            <a href=""><img src="./assets/img/sevenshoplogo.svg" alt="" /></a>
+          </h1>
+          <ul class="main-menu d-flex justify-content-center h-100">
+            <li class="d-flex menu-catalogue align-items-center">
+              Catalogue <i class="fa fa-caret-down" aria-hidden="true"></i>
+              <ul class="menu-catalogue-1 menu-1 container">
+                <li>
+                  <a href="">
+                    <img src="./assets/img/Menu/catalogue-1.webp" alt="" />
+                    <h4>Catalogue with side filter</h4>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="./assets/img/Menu/catalogue-2.webp" alt="" />
+                    <h4>Catalogue with slide-out filter</h4>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="./assets/img/Menu/catalogue-3.webp" alt="" />
+                    <h4>Product page layout</h4>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="d-flex menu-women align-items-center">
+              Women <i class="fa fa-caret-down" aria-hidden="true"></i>
+              <div class="menu-women-1 menu-1 container">
+                <div class="row">
+                  <div class="women-fashion col-8">
+                    <h4 class="women-heading-title">women's fashion</h4>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="d-flex women-category">
+                          <img src="./assets/img/Menu/s104.webp" alt="" class="women-category-img" />
+                          <div>
+                            <h5 class="women-categor-title">
+                              Women's t-shirts
+                            </h5>
+                            <span class="women-category-products">3 Products</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex women-category">
+                          <img src="./assets/img/Menu/s104.webp" alt="" class="women-category-img" />
+                          <div>
+                            <h5 class="women-categor-title">
+                              Women's t-shirts
+                            </h5>
+                            <span class="women-category-products">3 Products</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="d-flex women-category">
+                          <img src="./assets/img/Menu/s104.webp" alt="" class="women-category-img" />
+                          <div>
+                            <h5 class="women-categor-title">
+                              Women's t-shirts
+                            </h5>
+                            <span class="women-category-products">3 Products</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex women-category">
+                          <img src="./assets/img/Menu/s104.webp" alt="" class="women-category-img" />
+                          <div>
+                            <h5 class="women-categor-title">
+                              Women's t-shirts
+                            </h5>
+                            <span class="women-category-products">3 Products</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+
+                  <div class="col-4">Test</div>
                 </div>
-              </li>
-              <li class="d-flex align-items-center">
-                Men <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </li>
-              <li class="d-flex align-items-center">
-                Accessories <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </li>
-              <li class="d-flex align-items-center">Sale</li>
-              <li class="d-flex align-items-center">News</li>
-              <li class="d-flex align-items-center">
-                Info<i class="fa fa-caret-down" aria-hidden="true"></i>
-              </li>
-            </ul>
-            <ul class="actions d-flex">
-              <li><i class="fa fa-search" aria-hidden="true"></i></li>
-              <li><i class="fa fa-user-o" aria-hidden="true"></i></li>
-              <li><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></li>
-            </ul>
+              </div>
+            </li>
+            <li class="d-flex align-items-center">
+              Men <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </li>
+            <li class="d-flex align-items-center">
+              Accessories <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </li>
+            <li class="d-flex align-items-center">Sale</li>
+            <li class="d-flex align-items-center">News</li>
+            <li class="d-flex align-items-center">
+              Info<i class="fa fa-caret-down" aria-hidden="true"></i>
+            </li>
+          </ul>
+          <ul class="actions d-flex">
+            <li><i class="fa fa-search" aria-hidden="true"></i></li>
+            <li><i class="fa fa-user-o" aria-hidden="true"></i></li>
+            <li><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="banner-slide-item" style="background-image: url('./assets/img/slide005-6.jpg')">
+      <div class="container">
+        <div class="banner-slide-item-box text-center">
+          <h6 class="slide-subtitle">Your everyday style & comfort</h6>
+          <h3 class="slide-title">Streetwear Collection</h3>
+          <button class="btn btn-primary slide-btn">
+            <a href="">Shop streetwear items</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="banner-slide-item" style="background-image: url('./assets/img/slide001-6.jpg')">
+      <div class="container">
+        <div class="banner-slide-item-box text-center">
+          <h6 class="slide-subtitle">Your everyday style & comfort</h6>
+          <h3 class="slide-title">Streetwear Collection</h3>
+          <button class="btn btn-primary slide-btn">
+            <a href="">Shop streetwear items</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="banner-slide-item" style="background-image: url('./assets/img/slide002-3.jpg')">
+      <div class="container">
+        <div class="banner-slide-item-box text-center">
+          <h6 class="slide-subtitle">Your everyday style & comfort</h6>
+          <h3 class="slide-title">Streetwear Collection</h3>
+          <button class="btn btn-primary slide-btn">
+            <a href="">Shop streetwear items</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- category type -->
+  <div class="category-type">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="category-type-item " style="background-image: url(./assets/img/ban007.jpg);">
+            <h3 class="category-title">Women's fashion</h3>
+            <button class="btn btn-primary category-btn">Shop category</button>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="category-type-item" style="background-image: url(./assets/img/ban006.jpg);">
+            <h3 class="category-title">Men's fashion</h3>
+            <button class="btn btn-primary category-btn">Shop category</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="banner">
-      <div
-        class="banner-slide-item"
-        style="background-image: url('./assets/img/slide005-6.jpg')"
-      >
-        <div class="container">
-          <div class="banner-slide-item-box text-center">
-            <h6 class="slide-subtitle">Your everyday style & comfort</h6>
-            <h3 class="slide-title">Streetwear Collection</h3>
-            <button class="btn btn-primary slide-btn">
-              <a href="">Shop streetwear items</a>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="banner-slide-item"
-        style="background-image: url('./assets/img/slide001-6.jpg')"
-      >
-        <div class="container">
-          <div class="banner-slide-item-box text-center">
-            <h6 class="slide-subtitle">Your everyday style & comfort</h6>
-            <h3 class="slide-title">Streetwear Collection</h3>
-            <button class="btn btn-primary slide-btn">
-              <a href="">Shop streetwear items</a>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="banner-slide-item"
-        style="background-image: url('./assets/img/slide002-3.jpg')"
-      >
-        <div class="container">
-          <div class="banner-slide-item-box text-center">
-            <h6 class="slide-subtitle">Your everyday style & comfort</h6>
-            <h3 class="slide-title">Streetwear Collection</h3>
-            <button class="btn btn-primary slide-btn">
-              <a href="">Shop streetwear items</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- category type -->
-    <div class="category-type">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="category-type-item " style="background-image: url(./assets/img/ban007.jpg);">
-                        <h3 class="category-title">Women's fashion</h3>
-                        <button class="btn btn-primary category-btn">Shop category</button>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="category-type-item" style="background-image: url(./assets/img/ban006.jpg);">
-                        <h3 class="category-title">Men's fashion</h3>
-                        <button class="btn btn-primary category-btn">Shop category</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="products">
-      <div class="product-for-new">
+  </div>
+  <div class="products">
+    <div class="product-for-new">
+
+      <div class="container">
         
-        <div class="container">
-            <h3 class="text-center product-for-new-title">what's new</h3>
-            <div class="row">
-                <div class="col-3">
-                    <div class="card">
-                        <img src="./assets/img/s505.jpg" alt="" class="card-image">
-                        <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
-                        <h3 class="card-title">bottom split jeans</h3>
-                        <p class="card-price">$340.00</p>
-                        <span class="card-description">100% recyled denim</span>
-                    </div>
-                   
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img src="./assets/img/s505.jpg" alt="" class="card-image">
-                        <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
-                        <h3 class="card-title">bottom split jeans</h3>
-                        <p class="card-price">$340.00</p>
-                        <span class="card-description">100% recyled denim</span>
-                  </div>  
-                </div>
-                <div class="col-3">
-                    <div class="card">
-<!--                      Testing-->
-                      <div class ="card-image-container">
-                        <img src="./assets/img/s505.jpg" alt="" class="card-image">
-                        <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
-                      </div>
+        <h3 class="text-center product-for-new-title">what's new</h3>
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
 
-                        <h3 class="card-title">bottom split jeans</h3>
-                        <p class="card-price">$340.00</p>
-                        <span class="card-description">100% recyled denim</span>
-                    </div>
+              <div class="card-image-container">
+                <img src="./assets/img/s505.jpg" alt="" class="card-image">
+                <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
+                <div class="card-icons w-100 d-flex justify-content-between">
+                  <ul class="card-icon-size d-flex ">
+                    <li class="card-icon-size-item "><a href="">XS</a> </li>
+                    <li class="card-icon-size-item"><a href="">S</a> </li>
+                    <li class="card-icon-size-item"><a href="">M</a> </li>
+                    <li class="card-icon-size-item"><a href="">L</a> </li>
+                    <li class="card-icon-size-item"><a href="">XL</a> </li>
+                  </ul>
+                  <div class="card-icon-cart"> <i class="fa fa-cart-arrow-down card-icon-cart-item" aria-hidden="true"></i></div>
                 </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img src="./assets/img/s505.jpg" alt="" class="card-image">
-                        <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
-                        <h3 class="card-title">bottom split jeans</h3>
-                        <p class="card-price">$340.00</p>
-                        <span class="card-description">100% recyled denim</span>
-                  </div>
-                </div>
+              </div>
+              <h3 class="card-title">bottom split jeans</h3>
+              <p class="card-price">$340.00</p>
+              <span class="card-description">100% recyled denim</span>
             </div>
+
+          </div>
+          <div class="col-3">
+            <div class="card">
+
+              <div class="card-image-container">
+                <img src="./assets/img/s505.jpg" alt="" class="card-image">
+                <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
+                <div class="card-icons w-100 d-flex justify-content-between">
+                  <ul class="card-icon-size d-flex ">
+                    <li class="card-icon-size-item "><a href="">XS</a> </li>
+                    <li class="card-icon-size-item"><a href="">S</a> </li>
+                    <li class="card-icon-size-item"><a href="">M</a> </li>
+                    <li class="card-icon-size-item"><a href="">L</a> </li>
+                    <li class="card-icon-size-item"><a href="">XL</a> </li>
+                  </ul>
+                  <div class="card-icon-cart"> <i class="fa fa-cart-arrow-down card-icon-cart-item" aria-hidden="true"></i></div>
+                </div>
+              </div>
+              <h3 class="card-title">bottom split jeans</h3>
+              <p class="card-price">$340.00</p>
+              <span class="card-description">100% recyled denim</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+
+              <div class="card-image-container">
+                <img src="./assets/img/s505.jpg" alt="" class="card-image">
+                <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
+                <div class="card-icons w-100 d-flex justify-content-between">
+                  <ul class="card-icon-size d-flex ">
+                    <li class="card-icon-size-item "><a href="">XS</a> </li>
+                    <li class="card-icon-size-item"><a href="">S</a> </li>
+                    <li class="card-icon-size-item"><a href="">M</a> </li>
+                    <li class="card-icon-size-item"><a href="">L</a> </li>
+                    <li class="card-icon-size-item"><a href="">XL</a> </li>
+                  </ul>
+                  <div class="card-icon-cart"> <i class="fa fa-cart-arrow-down card-icon-cart-item" aria-hidden="true"></i></div>
+                </div>
+              </div>
+              <h3 class="card-title">bottom split jeans</h3>
+              <p class="card-price">$340.00</p>
+              <span class="card-description">100% recyled denim</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+
+              <div class="card-image-container">
+                <img src="./assets/img/s505.jpg" alt="" class="card-image">
+                <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
+                <div class="card-icons w-100 d-flex justify-content-between">
+                  <ul class="card-icon-size d-flex ">
+                    <li class="card-icon-size-item "><a href="">XS</a> </li>
+                    <li class="card-icon-size-item"><a href="">S</a> </li>
+                    <li class="card-icon-size-item"><a href="">M</a> </li>
+                    <li class="card-icon-size-item"><a href="">L</a> </li>
+                    <li class="card-icon-size-item"><a href="">XL</a> </li>
+                  </ul>
+                  <div class="card-icon-cart"> <i class="fa fa-cart-arrow-down card-icon-cart-item" aria-hidden="true"></i></div>
+                </div>
+              </div>
+              <h3 class="card-title">bottom split jeans</h3>
+              <p class="card-price">$340.00</p>
+              <span class="card-description">100% recyled denim</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="product-for-sell"></div>
     </div>
-    <div class="promotion"></div>
-    <div class="categories"></div>
-    <div class="blog"></div>
-    <div class="footer"></div>
 
-    <script>
-      let slideIndex = 0;
-      showSlides();
 
-      function showSlides() {
-        let i;
-        let slides = document.querySelectorAll(".banner-slide-item");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.transform = "translateX(-100%)";
-          slides[i].style.height = "0";
-         
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-          slideIndex = 1;
-        }
-        slides[slideIndex - 1].style.transform = "translateX(0%)";
-        slides[slideIndex - 1].style.height = "500px";
-        setTimeout(showSlides, 5000); // Change image every 2 seconds
+    <!-- Product sell -->
+    <div class="product-for-sell">
+      <div class="container">
+        <div class="product-for-sell-line"></div>
+        <h3 class="text-center product-for-sell-title">our bestseller</h3>
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+
+              <div class="card-image-container">
+                <img src="./assets/img/s505.jpg" alt="" class="card-image">
+                <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
+                <div class="card-icons w-100 d-flex justify-content-between">
+                  <ul class="card-icon-size d-flex ">
+                    <li class="card-icon-size-item "><a href="">XS</a> </li>
+                    <li class="card-icon-size-item"><a href="">S</a> </li>
+                    <li class="card-icon-size-item card-icon-size-item-not"><a href="">M</a> </li>
+                    <li class="card-icon-size-item card-icon-size-item-not"><a href="">L</a> </li>
+                    <li class="card-icon-size-item"><a href="">XL</a> </li>
+                  </ul>
+                  <div class="card-icon-cart"> <i class="fa fa-cart-arrow-down card-icon-cart-item" aria-hidden="true"></i></div>
+                </div>
+              </div>
+              <h3 class="card-title">bottom split jeans</h3>
+              <p class="card-price">$340.00</p>
+              <span class="card-description">100% recyled denim</span>
+            </div>
+
+          </div>
+          <div class="col-3">
+            <div class="card">
+
+              <div class="card-image-container">
+                <img src="./assets/img/s505.jpg" alt="" class="card-image">
+                <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
+                <div class="card-icons w-100 d-flex justify-content-between">
+                  <ul class="card-icon-size d-flex ">
+                    <li class="card-icon-size-item  card-icon-size-item-not"><a href="">XS</a> </li>
+                    <li class="card-icon-size-item"><a href="">S</a> </li>
+                    <li class="card-icon-size-item"><a href="">M</a> </li>
+                    <li class="card-icon-size-item"><a href="">L</a> </li>
+                    <li class="card-icon-size-item card-icon-size-item-not"><a href="">XL</a> </li>
+                  </ul>
+                  <div class="card-icon-cart"> <i class="fa fa-cart-arrow-down card-icon-cart-item" aria-hidden="true"></i></div>
+                </div>
+              </div>
+              <h3 class="card-title">bottom split jeans</h3>
+              <p class="card-price">$340.00</p>
+              <span class="card-description">100% recyled denim</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+
+              <div class="card-image-container">
+                <img src="./assets/img/s505.jpg" alt="" class="card-image">
+                <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
+                <div class="card-icons w-100 d-flex justify-content-between">
+                  <ul class="card-icon-size d-flex ">
+                    <li class="card-icon-size-item "><a href="">XS</a> </li>
+                    <li class="card-icon-size-item"><a href="">S</a> </li>
+                    <li class="card-icon-size-item card-icon-size-item-not"><a href="">M</a> </li>
+                    <li class="card-icon-size-item"><a href="">L</a> </li>
+                    <li class="card-icon-size-item"><a href="">XL</a> </li>
+                  </ul>
+                  <div class="card-icon-cart"> <i class="fa fa-cart-arrow-down card-icon-cart-item" aria-hidden="true"></i></div>
+                </div>
+              </div>
+              <h3 class="card-title">bottom split jeans</h3>
+              <p class="card-price">$340.00</p>
+              <span class="card-description">100% recyled denim</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+
+              <div class="card-image-container">
+                <img src="./assets/img/s505.jpg" alt="" class="card-image">
+                <img src="./assets/img/s504.jpg" alt="" class="card-image-off">
+                <div class="card-icons w-100 d-flex justify-content-between">
+                  <ul class="card-icon-size d-flex ">
+                    <li class="card-icon-size-item  card-icon-size-item-not"><a href="">XS</a> </li>
+                    <li class="card-icon-size-item"><a href="">S</a> </li>
+                    <li class="card-icon-size-item"><a href="">M</a> </li>
+                    <li class="card-icon-size-item"><a href="">L</a> </li>
+                    <li class="card-icon-size-item"><a href="">XL</a> </li>
+                  </ul>
+                  <div class="card-icon-cart"> <i class="fa fa-cart-arrow-down card-icon-cart-item" aria-hidden="true"></i></div>
+                </div>
+              </div>
+              <h3 class="card-title">bottom split jeans</h3>
+              <p class="card-price">$340.00</p>
+              <span class="card-description">100% recyled denim</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="promotion"></div>
+  <div class="categories"></div>
+  <div class="blog"></div>
+  <div class="footer"></div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.querySelectorAll(".banner-slide-item");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.transform = "translateX(-100%)";
+        slides[i].style.height = "0";
+
       }
-    </script>
-  </body>
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.transform = "translateX(0%)";
+      slides[slideIndex - 1].style.height = "500px";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+  </script>
+</body>
+
 </html>
