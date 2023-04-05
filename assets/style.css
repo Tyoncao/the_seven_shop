@@ -63,7 +63,11 @@ a, a:hover {
 .align-items-center {
     align-items: center;
 }
-
+.col-2 {
+    width: 16.666%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .col-3 {
     width: 25%;
     padding-left: 1rem;
@@ -287,8 +291,7 @@ a, a:hover {
     margin-bottom: 8rem;
 }
 
-.product-for-new-title,
-.product-for-sell-title{
+.heading-title{
     font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -375,11 +378,126 @@ a, a:hover {
     margin-bottom: 2rem;
 }
 
-.product-for-sell-line{
+.line{
     width: 100%;
     border: 1px solid #0000001f;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 .card-image-container:hover li.card-icon-size-item-not{
-    color: #0000001f;
+    color: #ffffffa5;
+    border: 1px solid #ffffffa7;
+}
+
+.promotion-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 23rem;
+}
+.promotion-box{
+    padding: 10rem 3rem;
+    color: #fff;
+}
+.promotion-box-title{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.promotion-box button{
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+.blog{
+    padding: 3rem;
+}
+.categories-box-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 auto;;
+}
+.categories{
+    padding: 4rem 0;
+}
+.categories-box-text-title{
+    margin: 1rem 0;
+    font-weight: 500;
+}
+.categories-box-text-description{
+    color: #00000050;
+}
+.blog-box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 15rem;
+}
+.blog-title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.blog-description{
+    color: #00000050;
+    
+}
+.footer{
+    display: block;
+    background-color:  #111111;
+    
+}
+.footer-policy{
+    display: block;
+    padding: 2rem 0;
+    
+    color: #fff;
+    height: 6rem;
+}
+
+.footer-policy-box-icon{
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--bg-primary-color);
+}
+
+.footer-policy-box-icon i{
+    display: block;
+    font-size: 1.4rem;
+    margin: 12px 15px;
+}
+.footer-policy-box-description{
+    margin-top: 0.9rem;
+    margin-left: 0.8rem;
+}
+.footer-about{
+    display: block;
+    padding: 1rem 0 4rem 0;
+    color: #ffffff68;
+}
+.line-footer{
+    border: 1px solid #fff;
+}
+.footer-about-logo{
+    height: 2.6rem;
+    width: auto ;
+    margin-bottom: 2rem;
+}
+.footer-about-title{
+    font-weight: 500;
+    color: #fff;
+    margin-bottom:  0.8rem;
+}
+.footer-about-link{
+    font-weight: 300;
+    width: 100%;
+    margin-bottom: 0.4rem;
+    cursor: pointer;
+}
+.footer-about-link:hover {
+    color: #fff;
 }
