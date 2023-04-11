@@ -504,3 +504,10 @@ a, a:hover {
 .footer-about-link:hover {
     color: #fff;
 }
+.footer-follow{
+    padding: 0.8rem 0;
+    color: #fff;
+}
+.footer-follow ul li {
+    margin-left: 1rem;
+}
