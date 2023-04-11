@@ -395,7 +395,7 @@ a, a:hover {
     height: 23rem;
 }
 .promotion-box{
-    padding: 10rem 3rem;
+    padding: 8.5rem 3rem;
     color: #fff;
 }
 .promotion-box-title{
@@ -439,6 +439,10 @@ a, a:hover {
     font-size: 1.2rem;
     font-weight: 500;
     margin: 1rem 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .blog-description{
     color: #00000050;
@@ -450,34 +454,33 @@ a, a:hover {
     
 }
 .footer-policy{
-    display: block;
     padding: 2rem 0;
-    
     color: #fff;
     height: 6rem;
 }
 
 .footer-policy-box-icon{
-    display: block;
+    text-align: center;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
     background-color: var(--bg-primary-color);
+    margin-right: 1rem;
 }
 
 .footer-policy-box-icon i{
-    display: block;
+    line-height: 3rem;
     font-size: 1.4rem;
-    margin: 12px 15px;
 }
 .footer-policy-box-description{
-    margin-top: 0.9rem;
-    margin-left: 0.8rem;
+    line-height: 3rem;
 }
 .footer-about{
     display: block;
-    padding: 1rem 0 4rem 0;
+    padding: 4rem 0 4rem 0;
     color: #ffffff68;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 .line-footer{
     border: 1px solid #fff;
